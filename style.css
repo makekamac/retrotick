@@ -1,0 +1,100 @@
+:root {
+  --bg: #0b0c10;
+  --panel: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.10);
+  --text: #f3f4f6;
+  --muted: #9aa0aa;
+  --accent: #7dd3fc;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(1200px 600px at 50% -10%, #1b2330 0%, transparent 60%),
+    var(--bg);
+  min-height: 100vh;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 22px 80px;
+}
+
+header.site { text-align: center; margin-bottom: 40px; }
+
+.logo {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  line-height: 1.15;
+  margin: 0.2em 0 0.4em;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 2em 0 0.5em;
+  letter-spacing: -0.01em;
+}
+
+.tagline { color: var(--muted); font-size: 1.15rem; margin: 0 0 1.6em; }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px 24px;
+  margin: 18px 0;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+a { color: var(--accent); }
+
+ul { padding-left: 1.2em; }
+li { margin: 0.35em 0; }
+
+.muted { color: var(--muted); }
+.small { font-size: 0.92rem; }
+
+.nav { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-top: 10px; }
+.nav a { color: var(--muted); text-decoration: none; }
+.nav a:hover { color: var(--text); }
+
+.btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: var(--text);
+  color: #0b0c10;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 56px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+code {
+  background: rgba(255,255,255,0.08);
+  padding: 0.1em 0.4em;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
