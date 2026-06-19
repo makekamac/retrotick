@@ -1,13 +1,13 @@
-# FlipClock website
+# Retrotick website
 
-Static site for the **FlipClock** iOS app — landing page, privacy policy, and
-support page. Served via GitHub Pages at <https://makekamac.github.io/flipclock/>.
+Static site for the **Retrotick** iOS app — landing page, privacy policy, and
+support page. Served via GitHub Pages at <https://makekamac.github.io/retrotick/>.
 
 | Page | URL |
 |------|-----|
-| Landing (Marketing URL) | https://makekamac.github.io/flipclock/ |
-| Privacy Policy | https://makekamac.github.io/flipclock/privacy/ |
-| Support | https://makekamac.github.io/flipclock/support/ |
+| Landing (Marketing URL) | https://makekamac.github.io/retrotick/ |
+| Privacy Policy | https://makekamac.github.io/retrotick/privacy/ |
+| Support | https://makekamac.github.io/retrotick/support/ |
 
 ## Editing the support / contact email
 
@@ -18,7 +18,7 @@ push — Pages redeploys automatically.
 ## Local preview
 
 ```sh
-python3 -m http.server 8000   # then open http://localhost:8000/flipclock/ won't match;
+python3 -m http.server 8000   # then open http://localhost:8000/retrotick/ won't match;
                               # use a path-rewrite or just open the files directly
 ```
 
